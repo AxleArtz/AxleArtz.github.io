@@ -1,7 +1,12 @@
+* {
+    padding: 0px;
+}
+
 body {
-background-color: #777;
+background-color: rgb(41, 41, 41);
 margin: 0px;
 padding: 0px;
+color: whitesmoke;
 }
 
 #bar {
@@ -9,11 +14,34 @@ padding: 0px;
     margin-left: 1rem;
 }
 
+#bar ul {
+    margin-left: 1rem;
+}
+
 #bar li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    list-style-position:unset;
+}
+
+#bar a {
+    background-color: #9836f4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    padding: 10px;
+    width:100%;
+    display:block;
+    
+}
+
+#bar a:hover {
+    background-color: rgb(98, 0, 255);
+    border: whitesmoke;
+    border-radius: 5px;
 }
 
 .gallery {
